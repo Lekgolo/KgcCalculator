@@ -1,0 +1,46 @@
+body {
+  background: #15222e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  background: blue;
+}
+
+.modules-wrapper {
+  background: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+  min-width: 1000px;
+}
+
+.module-wrapper {
+  border: 5px solid yellow;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+.module-title {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 100px;
+  padding: 5px;
+}
+
+select {
+  width: 100px;
+  padding: 5px;
+}
